@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="320dp">
+
+        <ImageView
+            android:layout_marginTop="16dp"
+            android:id="@+id/id_item_image"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:src="@drawable/coloseum"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/id_item_title"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coloseum"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:textColor="@color/colorDark"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/id_item_description"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/description_coloseum"/>
+
+
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

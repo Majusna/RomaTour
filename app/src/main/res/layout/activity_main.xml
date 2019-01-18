@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:src="@drawable/rim"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24dp"
+        android:id="@+id/tv_znamenitosti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="znamenitosti"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24dp"
+        android:id="@+id/tv_baziike"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bazilike"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24dp"
+        android:id="@+id/trgovi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="trgovi"
+        android:layout_marginTop="24dp"/>
+
+
+    <TextView
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24dp"
+        android:id="@+id/tv_parkovi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="parkovi"
+        android:layout_marginTop="24dp"/>
+
+
+
+</LinearLayout>

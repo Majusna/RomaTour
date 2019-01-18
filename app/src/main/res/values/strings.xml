@@ -7,24 +7,24 @@
         empire of Vespasian and was finished in the year 80 during the rule of the emperor Titus.
         </string>
 
-    <string name="title_znamen_a">Colloseum</string>
-    <string name="title_znamen_b">Fontana Di Trevi</string>
+    <string name="title_znamen_a">Colloseo</string>
+    <string name="title_znamen_b">Fontana di Trevi</string>
     <string name="title_znamen_c">Vittoriano</string>
-    <string name="title_znamen_d">Roman Forum</string>
-    <string name="title_znamen_e">St Angelo castel</string>
-    <string name="title_bazilike_a">St.Peter</string>
+    <string name="title_znamen_d">Foro Romano</string>
+    <string name="title_znamen_e">Castello St\'Angelo</string>
+    <string name="title_bazilike_a">San Pietro</string>
     <string name="title_bazilike_b">Pantheon</string>
-    <string name="title_bazilike_c">St.Paolo</string>
-    <string name="title_bazilike_d">St.Maria</string>
-    <string name="title_bazilike_e">St.Giovani</string>
+    <string name="title_bazilike_c">San Paolo</string>
+    <string name="title_bazilike_d">Santa Maria del Popolo</string>
+    <string name="title_bazilike_e">San Giovanni</string>
     <string name="title_trgovi_a">Piazza Venecia</string>
     <string name="title_trgovi_b">Piazza de Spagna</string>
-    <string name="title_trgovi_c">Piazza de Popolo</string>
+    <string name="title_trgovi_c">Piazza del Popolo</string>
     <string name="title_trgovi_d">Piazza Navona</string>
-    <string name="title_trgovi_e">Piazza Campedoglio</string>
-    <string name="title_parkovi_a">Villa Borgeza</string>
-    <string name="title_parkovi_b">Villa Pmphili</string>
-    <string name="title_parkovi_c">Villa d Orange</string>
+    <string name="title_trgovi_e">Piazza Campidoglio</string>
+    <string name="title_parkovi_a">Villa Borghese</string>
+    <string name="title_parkovi_b">Villa Doria Pamphili</string>
+    <string name="title_parkovi_c">Villa Clemontana</string>
     <string name="title_parkovi_d">Villa Ada</string>
 
 

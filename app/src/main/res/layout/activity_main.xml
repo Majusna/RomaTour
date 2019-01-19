@@ -1,94 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
 
-    android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="320dp"
-        android:src="@drawable/rome"
-        android:scaleType="centerCrop" />
+        android:scaleType="centerCrop"
+        android:src="@drawable/rome" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimaryDark"
-        android:text="Rome"
-        android:textSize="28dp"
-        android:textColor="#ffffff"
-        android:textStyle="bold"
-        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
         android:paddingLeft="16dp"
-        android:paddingBottom="4dp"/>
+        android:paddingTop="4dp"
+        android:text="Rome"
+        android:textColor="#ffffff"
+        android:textSize="28dp"
+        android:textStyle="bold"/>
 
 
     <TextView
-        android:layout_marginLeft="16dp"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="18dp"
         android:id="@+id/tv_znamenitosti"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp"
         android:text="ZNAMENITOSTI"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"/>
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18dp"/>
     <TextView
-        android:background="@color/colorPrimaryDark"
         android:layout_width="match_parent"
-        android:layout_height="1dp" />
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark" />
 
     <TextView
-        android:layout_marginLeft="16dp"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="18dp"
         android:id="@+id/tv_baziike"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp"
         android:text="BAZILIKE"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"/>
-
-    <TextView
-        android:background="@color/colorPrimaryDark"
-        android:layout_width="match_parent"
-        android:layout_height="1dp" />
-
-    <TextView
-        android:layout_marginLeft="16dp"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="18dp"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <TextView
         android:id="@+id/trgovi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp"
         android:text="TRGOVI"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"/>
-
-    <TextView
-        android:background="@color/colorPrimaryDark"
-        android:layout_width="match_parent"
-        android:layout_height="1dp" />
-
-    <TextView
-        android:layout_marginLeft="16dp"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="18dp"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <TextView
         android:id="@+id/tv_parkovi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp"
         android:text="PARKOVI"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"/>
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18dp"/>
 
     <TextView
-        android:background="@color/colorPrimaryDark"
         android:layout_width="match_parent"
-        android:layout_height="1dp" />
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark" />
 
 
 
